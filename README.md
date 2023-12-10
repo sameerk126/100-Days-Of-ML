@@ -1,5 +1,13 @@
 
 | Day           | Skills Learned |
 | ------------- | -------------  |
-| Content Cell  | Content Cell   |
-| Content Cell  | Content Cell   |
+| Day - 1  | Python Libraries   |
+| Day - 2| EDA   |
+| Day - 3|Linear Regression    |
+| Day - 4|  Logistic Regression  |
+| Day - 5|  Confucion Matrix & Cross Validation  |Kaggle Submission|
+| Day - 6|    |
+| Day - 7|    |
+| Day - 8|    |
+| Day - 9|    |
+| Day - 10|    |
