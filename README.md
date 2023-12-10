@@ -1,5 +1,5 @@
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Day           | Skills Learned |
+| ------------- | -------------  |
+| Content Cell  | Content Cell   |
+| Content Cell  | Content Cell   |
