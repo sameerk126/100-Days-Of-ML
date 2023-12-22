@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: url('images/background.png');
+    /* background: rgb(236,240,99); */
+    /* background-repeat:repeat-x    ; */
+    
+/* background: linear-gradient(169deg, rgba(236,240,99,1) 10%, rgba(117,223,231,1) 52%, rgba(233,103,103,1) 93%); */
+    /* background: url('images/background.png'); */
+}   
+
+.main{
+    /* width: 10%; */
+    width: 40%;
+    height: 100%;
+    /* display: flex; */
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+    top: 5%;
+    /* background-color: blue; */
+}
+.main input{
+    width: 90%;
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+
+.main button{
+    width: 30%;
+    height: 30px;
+    /* margin: auto; */
+    /* align-items: center; */
+    border-radius: 5px;
+    /* margin-left: auto; */
+    display: flex;
+    margin: auto;
+    text-align: center;
+
+
+}
