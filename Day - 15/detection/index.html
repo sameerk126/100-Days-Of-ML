@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Style-copy.css">
-    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/Style.css') }}">  -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <div class="blur">
-    <div class="main" >
-    <form action="{{ url_for('predict')}}"method="post">
+    <div class="main">
+        <form action="{{ url_for('predict')}}"method="post">
 
     <input type="number" name="a1_score" placeholder="A1 Score" id="">
     <input type="number" name="a2_score" placeholder="A2 Score" id="">
@@ -26,12 +26,13 @@
     <input type="number" name="gender" placeholder="Gender" id="">
     <input type="number" name="jaundice" placeholder="Jaundice" id="">
     <input type="number" name="autism" placeholder="Autism" id="">
-    <input type="number" name="relation" placeholder="Relation" id="">
+    <input type="number" name="relation" placeholder="Relation" id=""><br>
 
-<button>predict</button>
-</form>
-{{ prediction_text }}
-</div>
+<button id="submit">Predict</button>
+<button id="reset">Reset</button>
+
+
+    </div>
 </div>
 </body>
 </html>
