@@ -24,9 +24,9 @@ def predict():
 
     # output/= round(prediction[0], 2)
     if prediction == 1:
-        answer = 'Disease'
+        answer = '"ML suggests potential autism traits in the child."'
     else :
-        answer = 'NO Disease'
+        answer = '"ML analysis does not indicate traits associated with autism in the child."'
     return render_template('index.html', prediction_text = answer  )
 
 @app.route('/predict_api',methods=['POST'])

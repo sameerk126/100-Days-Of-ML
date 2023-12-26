@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+position: relative;
+    place-items: center;
+    align-items: center;
+    height: 54vh;
+        width: 45%;
+    left: 25%;
+    border: 1px solid;
+    padding: 20px;
+    z-index: 2;
+    margin-top: 150px;
+    backdrop-filter: blur(60px);
+}
+body{
+    /* height: 100vh; */
+    background-size: cover;
+    width: 100%;
+    background-image: url(cool-background.png);
+    /* backdrop-filter: blur(50px); */
+    
+
+}
+.blur{
+    /* backdrop-filter: blur(5px); */
+    height: 100%;
+}
+.main form input{
+    width: 49%;
+    height: 35px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    border: none;
+    text-align: center ;
+
+}
+.main form button{
+    /* display: flex; */
+    /* display: inline-block; */
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    font-family:cursive;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+#reset{
+    margin-left: 69%;
+
+}
+.main form button:hover{
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+box-shadow: 0 5px 15px rgba(145, 92, 182, 1 );}
+h3{
+    text-align: center;
+    font-size: 21px;
+    color: lightgreen;
+    background-color: black;
+    font-family: monospace;
+}
+h2{
+    font-size: 42px;
+    font-family: math;
+    text-align: center;
+    margin-top: 70px;
+    /* padding-top: -4px; */
+    /* position: relative; */
+    z-index: 6;
+    margin-bottom: -94px;
+}

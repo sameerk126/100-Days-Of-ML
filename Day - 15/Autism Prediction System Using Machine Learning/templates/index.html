@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
 
 </head>
 <body>
+    <h2>Autism Prediction System Using Machine Learning</h2>
     <div class="blur">
+
     <div class="main">
         <form action="{{ url_for('predict')}}"method="post">
 
@@ -31,7 +35,7 @@
 <button id="submit">Predict</button>
 <button id="reset">Reset</button>
 
-
+<h3>{{prediction_text}}</h3>
     </div>
 </div>
 </body>

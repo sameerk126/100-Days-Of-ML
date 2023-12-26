@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+    <div class="blur">
+    <div class="main">
+        <form action="{{ url_for('predict')}}"method="post">
+
+    <input type="number" name="a1_score" placeholder="A1 Score" id="">
+    <input type="number" name="a2_score" placeholder="A2 Score" id="">
+    <input type="number" name="a3_score" placeholder="A3 Score" id="">
+    <input type="number" name="a4_score" placeholder="A4 Score" id="">
+    <input type="number" name="a5_score" placeholder="A5 Score" id="">
+    <input type="number" name="a6_score" placeholder="A6 Score" id="">
+    <input type="number" name="a7_score" placeholder="A7 Score" id="">
+    <input type="number" name="a8_score" placeholder="A8 Score" id="">
+    <input type="number" name="a9_score" placeholder="A9 Score" id="">
+    <input type="number" name="a10_score" placeholder="A10 Score" id="">
+    <input type="number" name="age" placeholder="AGE" id="">
+    <input type="number" name="gender" placeholder="Gender" id="">
+    <input type="number" name="jaundice" placeholder="Jaundice" id="">
+    <input type="number" name="autism" placeholder="Autism" id="">
+    <input type="number" name="relation" placeholder="Relation" id=""><br>
+
+<button id="submit">Predict</button>
+<button id="reset">Reset</button>
+
+
+    </div>
+</div>
+</body>
+</html>
